@@ -1,0 +1,38 @@
+{
+  "contest": {
+    "id": "abc049",
+    "title": "AtCoder Beginner Contest 049",
+    "url": "https://atcoder.jp/contests/abc049"
+  },
+  "tasks": [
+    {
+      "id": "abc049_a",
+      "label": "A",
+      "title": "居合を終え、青い絵を覆う / UOIAUAI",
+      "url": "https://atcoder.jp/contests/abc049/tasks/abc049_a"
+    },
+    {
+      "id": "abc049_b",
+      "label": "B",
+      "title": "たてなが / Thin",
+      "url": "https://atcoder.jp/contests/abc049/tasks/abc049_b"
+    },
+    {
+      "id": "arc065_a",
+      "label": "C",
+      "title": "白昼夢 / Daydream",
+      "url": "https://atcoder.jp/contests/abc049/tasks/arc065_a",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "arc065_b",
+      "label": "D",
+      "title": "連結 / Connectivity",
+      "url": "https://atcoder.jp/contests/abc049/tasks/arc065_b"
+    }
+  ]
+}
