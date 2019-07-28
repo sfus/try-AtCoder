@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// use array bucket
 int main() {
     const int MAX = 100;
     int bucket[MAX + 1] = {}; // for max bucket[100]
