@@ -1,0 +1,9 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.respectShebang": false,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -O2 -std=c++14 $fileName && oj test",
+        "python": "cd $dir && oj test -c 'python $fileName'"
+    }
+}
