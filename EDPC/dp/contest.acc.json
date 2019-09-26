@@ -59,7 +59,11 @@
       "id": "dp_f",
       "label": "F",
       "title": "LCS",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_f"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_f",
+      "directory": {
+        "path": "f",
+        "testdir": "test"
+      }
     },
     {
       "id": "dp_g",
