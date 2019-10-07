@@ -79,7 +79,11 @@
       "id": "dp_h",
       "label": "H",
       "title": "Grid 1",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_h"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_h",
+      "directory": {
+        "path": "h",
+        "testdir": "test"
+      }
     },
     {
       "id": "dp_i",
