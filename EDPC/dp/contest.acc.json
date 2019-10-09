@@ -89,7 +89,11 @@
       "id": "dp_i",
       "label": "I",
       "title": "Coins",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_i"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_i",
+      "directory": {
+        "path": "i",
+        "testdir": "test"
+      }
     },
     {
       "id": "dp_j",
