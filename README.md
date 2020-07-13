@@ -18,6 +18,19 @@ $ acc config default-test-dirname-format test
 
 (note: The default value of `default-test-dirname-format` is `tests`, but `oj test` command requires `test` directory)
 
+And symlink to cpp templates:
+```
+$ ln -shf "$(pwd)/templates/cpp" "$(acc config-dir)/cpp"
+$ acc config default-template cpp
+```
+
+Or to use python:
+```
+$ ln -shf "$(pwd)/templates/python" "$(acc config-dir)/python"
+$ acc config default-template python
+```
+
+
 ## GNU time for `oj test`
 
 If in MacOS, install GNU time and add alias to override MacOS's `/usr/bin/time` for `oj test`.
@@ -76,6 +89,7 @@ then press `Ctrl-Alt-N` keys to run the above command.
 ## References
 
 ### online-judge-tools
+- [Introduction to online-judge-tools (Japanese) — online-judge-tools documentatio](https://online-judge-tools.readthedocs.io/en/master/introduction.ja.htm)
 - [競技プログラミングのための補助ツールを作った \- うさぎ小屋](https://kimiyuki.net/blog/2017/01/19/pr-online-judge-tools/)
 - [kmyk/online\-judge\-tools: Tools for online judge services\. Downloading sample cases, Testing/Submitting your code, and various utilities\.](https://github.com/kmyk/online-judge-tools)
 
